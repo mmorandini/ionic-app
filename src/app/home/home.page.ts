@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  text = 'ciao ciao';
+
   constructor() {}
+
+  onChangeText() {
+    this.text === 'Text!' ? this.text = 'ciao ciao' : this.text = 'Text!';
+  }
 
 }
